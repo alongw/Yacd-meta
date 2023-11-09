@@ -7,7 +7,7 @@ const { useCallback } = React;
 type Props = {
   name: string;
   value?: string | number;
-  type?: 'text' | 'number';
+  type?: 'text' | 'number' | 'password';
   onChange?: (...args: any[]) => any;
   id?: string;
   label?: string;

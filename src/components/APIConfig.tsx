@@ -111,7 +111,7 @@ function APIConfig({ dispatch }) {
             name="baseURL"
             label="API Base URL"
             type="text"
-            placeholder="http://127.0.0.1:9090"
+            placeholder="https://ys.mihoyo.com/main/"
             value={baseURL}
             onChange={handleInputOnChange}
           />
@@ -120,7 +120,7 @@ function APIConfig({ dispatch }) {
             name="secret"
             label="Secret(optional)"
             value={secret}
-            type="text"
+            type="password"
             onChange={handleInputOnChange}
           />
         </div>
